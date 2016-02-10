@@ -15,6 +15,21 @@
 		A3AAF6CC1C6BA9CE00F3B454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6CA1C6BA9CE00F3B454 /* LaunchScreen.storyboard */; };
 		A3AAF6D71C6BA9CF00F3B454 /* YIKSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF6D61C6BA9CF00F3B454 /* YIKSONTests.m */; };
 		A3AAF6E21C6BA9CF00F3B454 /* YIKSONUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF6E11C6BA9CF00F3B454 /* YIKSONUITests.m */; };
+		A3AAF6F41C6BAD1D00F3B454 /* appicon-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6EF1C6BAD1D00F3B454 /* appicon-01.png */; };
+		A3AAF6F61C6BAD1D00F3B454 /* appicon-02.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6F11C6BAD1D00F3B454 /* appicon-02.png */; };
+		A3AAF6F71C6BAD1D00F3B454 /* appicon-03.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6F21C6BAD1D00F3B454 /* appicon-03.png */; };
+		A3AAF6F81C6BAD1D00F3B454 /* appicon-04.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6F31C6BAD1D00F3B454 /* appicon-04.png */; };
+		A3AAF6FA1C6BB2D000F3B454 /* logonavbar.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6F91C6BB2D000F3B454 /* logonavbar.png */; };
+		A3AAF6FC1C6BBAE400F3B454 /* OptionSelect.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6FB1C6BBAE400F3B454 /* OptionSelect.xib */; };
+		A3AAF6FE1C6BBBA500F3B454 /* OptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6FD1C6BBBA500F3B454 /* OptionCell.xib */; };
+		A3AAF7011C6BBC4C00F3B454 /* OptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF7001C6BBC4C00F3B454 /* OptionCell.m */; };
+		A3AAF7041C6BBCB600F3B454 /* OptionSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF7031C6BBCB600F3B454 /* OptionSelect.m */; };
+		A3AAF7071C6BBDA100F3B454 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF7061C6BBDA100F3B454 /* FeedViewController.m */; };
+		A3AAF70A1C6BC22600F3B454 /* VideoFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF7091C6BC22600F3B454 /* VideoFeedViewController.m */; };
+		A3AAF70D1C6BC38800F3B454 /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF70C1C6BC38800F3B454 /* ArticleViewController.m */; };
+		A3AAF70F1C6BC51000F3B454 /* appicon-05.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF70E1C6BC51000F3B454 /* appicon-05.png */; };
+		A3AAF7111C6BC51400F3B454 /* appicon-06.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF7101C6BC51400F3B454 /* appicon-06.png */; };
+		A3AAF7141C6BC6AD00F3B454 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF7131C6BC6AD00F3B454 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,27 @@
 		A3AAF6DD1C6BA9CF00F3B454 /* YIKSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YIKSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AAF6E11C6BA9CF00F3B454 /* YIKSONUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIKSONUITests.m; sourceTree = "<group>"; };
 		A3AAF6E31C6BA9CF00F3B454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AAF6EF1C6BAD1D00F3B454 /* appicon-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-01.png"; sourceTree = "<group>"; };
+		A3AAF6F11C6BAD1D00F3B454 /* appicon-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-02.png"; sourceTree = "<group>"; };
+		A3AAF6F21C6BAD1D00F3B454 /* appicon-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-03.png"; sourceTree = "<group>"; };
+		A3AAF6F31C6BAD1D00F3B454 /* appicon-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-04.png"; sourceTree = "<group>"; };
+		A3AAF6F91C6BB2D000F3B454 /* logonavbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logonavbar.png; sourceTree = "<group>"; };
+		A3AAF6FB1C6BBAE400F3B454 /* OptionSelect.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionSelect.xib; sourceTree = "<group>"; };
+		A3AAF6FD1C6BBBA500F3B454 /* OptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionCell.xib; sourceTree = "<group>"; };
+		A3AAF6FF1C6BBC4C00F3B454 /* OptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionCell.h; sourceTree = "<group>"; };
+		A3AAF7001C6BBC4C00F3B454 /* OptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionCell.m; sourceTree = "<group>"; };
+		A3AAF7021C6BBCB600F3B454 /* OptionSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionSelect.h; sourceTree = "<group>"; };
+		A3AAF7031C6BBCB600F3B454 /* OptionSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionSelect.m; sourceTree = "<group>"; };
+		A3AAF7051C6BBDA100F3B454 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		A3AAF7061C6BBDA100F3B454 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		A3AAF7081C6BC22600F3B454 /* VideoFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoFeedViewController.h; sourceTree = "<group>"; };
+		A3AAF7091C6BC22600F3B454 /* VideoFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoFeedViewController.m; sourceTree = "<group>"; };
+		A3AAF70B1C6BC38800F3B454 /* ArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
+		A3AAF70C1C6BC38800F3B454 /* ArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
+		A3AAF70E1C6BC51000F3B454 /* appicon-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-05.png"; sourceTree = "<group>"; };
+		A3AAF7101C6BC51400F3B454 /* appicon-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-06.png"; sourceTree = "<group>"; };
+		A3AAF7121C6BC6AD00F3B454 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		A3AAF7131C6BC6AD00F3B454 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +139,22 @@
 			children = (
 				A3AAF6BF1C6BA9CE00F3B454 /* AppDelegate.h */,
 				A3AAF6C01C6BA9CE00F3B454 /* AppDelegate.m */,
+				A3AAF6FB1C6BBAE400F3B454 /* OptionSelect.xib */,
+				A3AAF7021C6BBCB600F3B454 /* OptionSelect.h */,
+				A3AAF7031C6BBCB600F3B454 /* OptionSelect.m */,
+				A3AAF6FD1C6BBBA500F3B454 /* OptionCell.xib */,
+				A3AAF6FF1C6BBC4C00F3B454 /* OptionCell.h */,
+				A3AAF7001C6BBC4C00F3B454 /* OptionCell.m */,
 				A3AAF6C21C6BA9CE00F3B454 /* ViewController.h */,
 				A3AAF6C31C6BA9CE00F3B454 /* ViewController.m */,
+				A3AAF7051C6BBDA100F3B454 /* FeedViewController.h */,
+				A3AAF7061C6BBDA100F3B454 /* FeedViewController.m */,
+				A3AAF7081C6BC22600F3B454 /* VideoFeedViewController.h */,
+				A3AAF7091C6BC22600F3B454 /* VideoFeedViewController.m */,
+				A3AAF70B1C6BC38800F3B454 /* ArticleViewController.h */,
+				A3AAF70C1C6BC38800F3B454 /* ArticleViewController.m */,
+				A3AAF7121C6BC6AD00F3B454 /* ProfileViewController.h */,
+				A3AAF7131C6BC6AD00F3B454 /* ProfileViewController.m */,
 				A3AAF6C51C6BA9CE00F3B454 /* Main.storyboard */,
 				A3AAF6C81C6BA9CE00F3B454 /* Assets.xcassets */,
 				A3AAF6CA1C6BA9CE00F3B454 /* LaunchScreen.storyboard */,
@@ -117,6 +167,13 @@
 		A3AAF6BC1C6BA9CE00F3B454 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A3AAF6F91C6BB2D000F3B454 /* logonavbar.png */,
+				A3AAF6EF1C6BAD1D00F3B454 /* appicon-01.png */,
+				A3AAF6F11C6BAD1D00F3B454 /* appicon-02.png */,
+				A3AAF6F21C6BAD1D00F3B454 /* appicon-03.png */,
+				A3AAF6F31C6BAD1D00F3B454 /* appicon-04.png */,
+				A3AAF70E1C6BC51000F3B454 /* appicon-05.png */,
+				A3AAF7101C6BC51400F3B454 /* appicon-06.png */,
 				A3AAF6BD1C6BA9CE00F3B454 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,9 +300,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AAF6F61C6BAD1D00F3B454 /* appicon-02.png in Resources */,
+				A3AAF6F71C6BAD1D00F3B454 /* appicon-03.png in Resources */,
+				A3AAF7111C6BC51400F3B454 /* appicon-06.png in Resources */,
+				A3AAF6FE1C6BBBA500F3B454 /* OptionCell.xib in Resources */,
 				A3AAF6CC1C6BA9CE00F3B454 /* LaunchScreen.storyboard in Resources */,
+				A3AAF6F81C6BAD1D00F3B454 /* appicon-04.png in Resources */,
+				A3AAF6F41C6BAD1D00F3B454 /* appicon-01.png in Resources */,
+				A3AAF6FC1C6BBAE400F3B454 /* OptionSelect.xib in Resources */,
+				A3AAF6FA1C6BB2D000F3B454 /* logonavbar.png in Resources */,
 				A3AAF6C91C6BA9CE00F3B454 /* Assets.xcassets in Resources */,
 				A3AAF6C71C6BA9CE00F3B454 /* Main.storyboard in Resources */,
+				A3AAF70F1C6BC51000F3B454 /* appicon-05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AAF7041C6BBCB600F3B454 /* OptionSelect.m in Sources */,
+				A3AAF7141C6BC6AD00F3B454 /* ProfileViewController.m in Sources */,
+				A3AAF7011C6BBC4C00F3B454 /* OptionCell.m in Sources */,
 				A3AAF6C41C6BA9CE00F3B454 /* ViewController.m in Sources */,
 				A3AAF6C11C6BA9CE00F3B454 /* AppDelegate.m in Sources */,
+				A3AAF7071C6BBDA100F3B454 /* FeedViewController.m in Sources */,
+				A3AAF70D1C6BC38800F3B454 /* ArticleViewController.m in Sources */,
+				A3AAF70A1C6BC22600F3B454 /* VideoFeedViewController.m in Sources */,
 				A3AAF6BE1C6BA9CE00F3B454 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,6 +6,9 @@
 //  Copyright © 2016 Shubham Sorte. All rights reserved.
 //
 
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -17,6 +20,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[UITabBar appearance] setBarTintColor:UIColorFromRGB(0xf2f2f2)];
+    [[UITabBar appearance] setTintColor:UIColorFromRGB(0xff3300)];
+    
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0xf2f2f2)];
+    
     return YES;
 }
 
