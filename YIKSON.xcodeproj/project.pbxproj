@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3AAF6BE1C6BA9CE00F3B454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF6BD1C6BA9CE00F3B454 /* main.m */; };
+		A3AAF6C11C6BA9CE00F3B454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF6C01C6BA9CE00F3B454 /* AppDelegate.m */; };
+		A3AAF6C41C6BA9CE00F3B454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF6C31C6BA9CE00F3B454 /* ViewController.m */; };
+		A3AAF6C71C6BA9CE00F3B454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6C51C6BA9CE00F3B454 /* Main.storyboard */; };
+		A3AAF6C91C6BA9CE00F3B454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6C81C6BA9CE00F3B454 /* Assets.xcassets */; };
+		A3AAF6CC1C6BA9CE00F3B454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6CA1C6BA9CE00F3B454 /* LaunchScreen.storyboard */; };
+		A3AAF6D71C6BA9CF00F3B454 /* YIKSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF6D61C6BA9CF00F3B454 /* YIKSONTests.m */; };
+		A3AAF6E21C6BA9CF00F3B454 /* YIKSONUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF6E11C6BA9CF00F3B454 /* YIKSONUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3AAF6D31C6BA9CF00F3B454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3AAF6B11C6BA9CE00F3B454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3AAF6B81C6BA9CE00F3B454;
+			remoteInfo = YIKSON;
+		};
+		A3AAF6DE1C6BA9CF00F3B454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3AAF6B11C6BA9CE00F3B454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3AAF6B81C6BA9CE00F3B454;
+			remoteInfo = YIKSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3AAF6B91C6BA9CE00F3B454 /* YIKSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YIKSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AAF6BD1C6BA9CE00F3B454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3AAF6BF1C6BA9CE00F3B454 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3AAF6C01C6BA9CE00F3B454 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3AAF6C21C6BA9CE00F3B454 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3AAF6C31C6BA9CE00F3B454 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3AAF6C61C6BA9CE00F3B454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3AAF6C81C6BA9CE00F3B454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3AAF6CB1C6BA9CE00F3B454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3AAF6CD1C6BA9CE00F3B454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AAF6D21C6BA9CF00F3B454 /* YIKSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YIKSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AAF6D61C6BA9CF00F3B454 /* YIKSONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIKSONTests.m; sourceTree = "<group>"; };
+		A3AAF6D81C6BA9CF00F3B454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AAF6DD1C6BA9CF00F3B454 /* YIKSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YIKSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AAF6E11C6BA9CF00F3B454 /* YIKSONUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIKSONUITests.m; sourceTree = "<group>"; };
+		A3AAF6E31C6BA9CF00F3B454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3AAF6B61C6BA9CE00F3B454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AAF6CF1C6BA9CF00F3B454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AAF6DA1C6BA9CF00F3B454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3AAF6B01C6BA9CE00F3B454 = {
+			isa = PBXGroup;
+			children = (
+				A3AAF6BB1C6BA9CE00F3B454 /* YIKSON */,
+				A3AAF6D51C6BA9CF00F3B454 /* YIKSONTests */,
+				A3AAF6E01C6BA9CF00F3B454 /* YIKSONUITests */,
+				A3AAF6BA1C6BA9CE00F3B454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3AAF6BA1C6BA9CE00F3B454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3AAF6B91C6BA9CE00F3B454 /* YIKSON.app */,
+				A3AAF6D21C6BA9CF00F3B454 /* YIKSONTests.xctest */,
+				A3AAF6DD1C6BA9CF00F3B454 /* YIKSONUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3AAF6BB1C6BA9CE00F3B454 /* YIKSON */ = {
+			isa = PBXGroup;
+			children = (
+				A3AAF6BF1C6BA9CE00F3B454 /* AppDelegate.h */,
+				A3AAF6C01C6BA9CE00F3B454 /* AppDelegate.m */,
+				A3AAF6C21C6BA9CE00F3B454 /* ViewController.h */,
+				A3AAF6C31C6BA9CE00F3B454 /* ViewController.m */,
+				A3AAF6C51C6BA9CE00F3B454 /* Main.storyboard */,
+				A3AAF6C81C6BA9CE00F3B454 /* Assets.xcassets */,
+				A3AAF6CA1C6BA9CE00F3B454 /* LaunchScreen.storyboard */,
+				A3AAF6CD1C6BA9CE00F3B454 /* Info.plist */,
+				A3AAF6BC1C6BA9CE00F3B454 /* Supporting Files */,
+			);
+			path = YIKSON;
+			sourceTree = "<group>";
+		};
+		A3AAF6BC1C6BA9CE00F3B454 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3AAF6BD1C6BA9CE00F3B454 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3AAF6D51C6BA9CF00F3B454 /* YIKSONTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3AAF6D61C6BA9CF00F3B454 /* YIKSONTests.m */,
+				A3AAF6D81C6BA9CF00F3B454 /* Info.plist */,
+			);
+			path = YIKSONTests;
+			sourceTree = "<group>";
+		};
+		A3AAF6E01C6BA9CF00F3B454 /* YIKSONUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3AAF6E11C6BA9CF00F3B454 /* YIKSONUITests.m */,
+				A3AAF6E31C6BA9CF00F3B454 /* Info.plist */,
+			);
+			path = YIKSONUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3AAF6B81C6BA9CE00F3B454 /* YIKSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AAF6E61C6BA9CF00F3B454 /* Build configuration list for PBXNativeTarget "YIKSON" */;
+			buildPhases = (
+				A3AAF6B51C6BA9CE00F3B454 /* Sources */,
+				A3AAF6B61C6BA9CE00F3B454 /* Frameworks */,
+				A3AAF6B71C6BA9CE00F3B454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YIKSON;
+			productName = YIKSON;
+			productReference = A3AAF6B91C6BA9CE00F3B454 /* YIKSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3AAF6D11C6BA9CF00F3B454 /* YIKSONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AAF6E91C6BA9CF00F3B454 /* Build configuration list for PBXNativeTarget "YIKSONTests" */;
+			buildPhases = (
+				A3AAF6CE1C6BA9CF00F3B454 /* Sources */,
+				A3AAF6CF1C6BA9CF00F3B454 /* Frameworks */,
+				A3AAF6D01C6BA9CF00F3B454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3AAF6D41C6BA9CF00F3B454 /* PBXTargetDependency */,
+			);
+			name = YIKSONTests;
+			productName = YIKSONTests;
+			productReference = A3AAF6D21C6BA9CF00F3B454 /* YIKSONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3AAF6DC1C6BA9CF00F3B454 /* YIKSONUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AAF6EC1C6BA9CF00F3B454 /* Build configuration list for PBXNativeTarget "YIKSONUITests" */;
+			buildPhases = (
+				A3AAF6D91C6BA9CF00F3B454 /* Sources */,
+				A3AAF6DA1C6BA9CF00F3B454 /* Frameworks */,
+				A3AAF6DB1C6BA9CF00F3B454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3AAF6DF1C6BA9CF00F3B454 /* PBXTargetDependency */,
+			);
+			name = YIKSONUITests;
+			productName = YIKSONUITests;
+			productReference = A3AAF6DD1C6BA9CF00F3B454 /* YIKSONUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3AAF6B11C6BA9CE00F3B454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Shubham Sorte";
+				TargetAttributes = {
+					A3AAF6B81C6BA9CE00F3B454 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A3AAF6D11C6BA9CF00F3B454 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A3AAF6B81C6BA9CE00F3B454;
+					};
+					A3AAF6DC1C6BA9CF00F3B454 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A3AAF6B81C6BA9CE00F3B454;
+					};
+				};
+			};
+			buildConfigurationList = A3AAF6B41C6BA9CE00F3B454 /* Build configuration list for PBXProject "YIKSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3AAF6B01C6BA9CE00F3B454;
+			productRefGroup = A3AAF6BA1C6BA9CE00F3B454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3AAF6B81C6BA9CE00F3B454 /* YIKSON */,
+				A3AAF6D11C6BA9CF00F3B454 /* YIKSONTests */,
+				A3AAF6DC1C6BA9CF00F3B454 /* YIKSONUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3AAF6B71C6BA9CE00F3B454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AAF6CC1C6BA9CE00F3B454 /* LaunchScreen.storyboard in Resources */,
+				A3AAF6C91C6BA9CE00F3B454 /* Assets.xcassets in Resources */,
+				A3AAF6C71C6BA9CE00F3B454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AAF6D01C6BA9CF00F3B454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AAF6DB1C6BA9CF00F3B454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3AAF6B51C6BA9CE00F3B454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AAF6C41C6BA9CE00F3B454 /* ViewController.m in Sources */,
+				A3AAF6C11C6BA9CE00F3B454 /* AppDelegate.m in Sources */,
+				A3AAF6BE1C6BA9CE00F3B454 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AAF6CE1C6BA9CF00F3B454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AAF6D71C6BA9CF00F3B454 /* YIKSONTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AAF6D91C6BA9CF00F3B454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AAF6E21C6BA9CF00F3B454 /* YIKSONUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3AAF6D41C6BA9CF00F3B454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3AAF6B81C6BA9CE00F3B454 /* YIKSON */;
+			targetProxy = A3AAF6D31C6BA9CF00F3B454 /* PBXContainerItemProxy */;
+		};
+		A3AAF6DF1C6BA9CF00F3B454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3AAF6B81C6BA9CE00F3B454 /* YIKSON */;
+			targetProxy = A3AAF6DE1C6BA9CF00F3B454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3AAF6C51C6BA9CE00F3B454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AAF6C61C6BA9CE00F3B454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3AAF6CA1C6BA9CE00F3B454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AAF6CB1C6BA9CE00F3B454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3AAF6E41C6BA9CF00F3B454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3AAF6E51C6BA9CF00F3B454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3AAF6E71C6BA9CF00F3B454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YIKSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikson.YIKSON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3AAF6E81C6BA9CF00F3B454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YIKSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikson.YIKSON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3AAF6EA1C6BA9CF00F3B454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YIKSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikson.YIKSONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YIKSON.app/YIKSON";
+			};
+			name = Debug;
+		};
+		A3AAF6EB1C6BA9CF00F3B454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YIKSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikson.YIKSONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YIKSON.app/YIKSON";
+			};
+			name = Release;
+		};
+		A3AAF6ED1C6BA9CF00F3B454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YIKSONUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikson.YIKSONUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YIKSON;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A3AAF6EE1C6BA9CF00F3B454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YIKSONUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikson.YIKSONUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YIKSON;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3AAF6B41C6BA9CE00F3B454 /* Build configuration list for PBXProject "YIKSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AAF6E41C6BA9CF00F3B454 /* Debug */,
+				A3AAF6E51C6BA9CF00F3B454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3AAF6E61C6BA9CF00F3B454 /* Build configuration list for PBXNativeTarget "YIKSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AAF6E71C6BA9CF00F3B454 /* Debug */,
+				A3AAF6E81C6BA9CF00F3B454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3AAF6E91C6BA9CF00F3B454 /* Build configuration list for PBXNativeTarget "YIKSONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AAF6EA1C6BA9CF00F3B454 /* Debug */,
+				A3AAF6EB1C6BA9CF00F3B454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3AAF6EC1C6BA9CF00F3B454 /* Build configuration list for PBXNativeTarget "YIKSONUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AAF6ED1C6BA9CF00F3B454 /* Debug */,
+				A3AAF6EE1C6BA9CF00F3B454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3AAF6B11C6BA9CE00F3B454 /* Project object */;
+}
