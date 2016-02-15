@@ -5,7 +5,6 @@
 //  Created by Shubham Sorte on 11/02/16.
 //  Copyright © 2016 Shubham Sorte. All rights reserved.
 //
-#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 #import "OptionSelect.h"
 #import "OptionCell.h"
@@ -38,11 +37,27 @@
     static NSString * cellIdentifier = @"Cell";
     OptionCell *cell = (OptionCell*)[collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     cell.optionLabelOutlet.text = _optionArray[indexPath.row];
-    
+    if (indexPath == _lastSelectedIndex) {
+        cell.optionLabelOutlet.textColor = UIColorFromRGB(0xff3300);
+    }
+    else
+        cell.optionLabelOutlet.textColor = UIColorFromRGB(0x000000);
     return cell;
     
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    if (_lastSelectedIndex != indexPath) {
+        OptionCell *cell = (OptionCell*)[collectionView cellForItemAtIndexPath:indexPath];
+        cell.optionLabelOutlet.textColor = UIColorFromRGB(0xff3300);
+        
+        if (_lastSelectedIndex != nil) {
+        OptionCell * lastCell = (OptionCell*)[collectionView cellForItemAtIndexPath:_lastSelectedIndex];
+        lastCell.optionLabelOutlet.textColor = UIColorFromRGB(0x000000);
+        }
+        _lastSelectedIndex = indexPath;
+        }
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.

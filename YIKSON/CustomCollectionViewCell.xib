@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="af4-2j-Nfw" customClass="CustomCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1q7-AC-Q4Q">
+                    <rect key="frame" x="8" y="8" width="144" height="144"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="1q7-AC-Q4Q" secondAttribute="bottom" constant="8" id="AI8-qe-NAV"/>
+                <constraint firstAttribute="trailing" secondItem="1q7-AC-Q4Q" secondAttribute="trailing" constant="8" id="HVd-4K-Aff"/>
+                <constraint firstItem="1q7-AC-Q4Q" firstAttribute="top" secondItem="af4-2j-Nfw" secondAttribute="top" constant="8" id="S2R-ZW-S0G"/>
+                <constraint firstItem="1q7-AC-Q4Q" firstAttribute="leading" secondItem="af4-2j-Nfw" secondAttribute="leading" constant="8" id="dsY-rS-BlR"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="postImageView" destination="1q7-AC-Q4Q" id="oQz-tl-Zbd"/>
+            </connections>
+            <point key="canvasLocation" x="457" y="265"/>
+        </view>
+    </objects>
+</document>

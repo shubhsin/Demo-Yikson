@@ -10,4 +10,5 @@
 
 @interface ArticleViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UICollectionView *myCollectionView;
 @end

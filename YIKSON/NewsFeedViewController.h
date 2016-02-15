@@ -1,5 +1,5 @@
 //
-//  FeedViewController.h
+//  NewsFeedViewController.h
 //  YIKSON
 //
 //  Created by Shubham Sorte on 11/02/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FeedViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UICollectionView *myCollectionView;
+@interface NewsFeedViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITableView *myTableView;
 
 @end

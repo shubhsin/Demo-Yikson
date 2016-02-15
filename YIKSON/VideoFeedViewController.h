@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface VideoFeedViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UICollectionView *myCollectionView;
 
 @end

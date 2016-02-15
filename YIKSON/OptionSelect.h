@@ -11,4 +11,5 @@
 @interface OptionSelect : UIView <UICollectionViewDelegate,UICollectionViewDataSource>
 @property (weak, nonatomic) IBOutlet UICollectionView *myCollectionView;
 @property NSArray * optionArray;
+@property NSIndexPath * lastSelectedIndex;
 @end
