@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73DC9F05712E0BAF7CA4D865 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0448935A0748D61DD752C84 /* libPods.a */; };
+		A31DABEA1C736273002FA9A3 /* PostContentOptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31DABE91C736273002FA9A3 /* PostContentOptionsTableViewController.m */; };
+		A31DABED1C736729002FA9A3 /* DirectUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31DABEC1C736729002FA9A3 /* DirectUploadViewController.m */; };
 		A3225F671C6C5A0900430903 /* NewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3225F661C6C5A0900430903 /* NewsFeedViewController.m */; };
 		A349FCF21C70760100F33898 /* NewsFeedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A349FCF11C70760100F33898 /* NewsFeedView.xib */; };
 		A349FCF51C7077BB00F33898 /* NewsFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A349FCF41C7077BB00F33898 /* NewsFeedTableViewCell.m */; };
@@ -47,9 +50,9 @@
 		A352BF711C72005F00378A62 /* lists-07.png in Resources */ = {isa = PBXBuildFile; fileRef = A352BF691C72005F00378A62 /* lists-07.png */; };
 		A352BF721C72005F00378A62 /* lists-08.png in Resources */ = {isa = PBXBuildFile; fileRef = A352BF6A1C72005F00378A62 /* lists-08.png */; };
 		A352BF751C7209E500378A62 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A352BF741C7209E500378A62 /* ContentViewController.m */; };
+		A39F1A521C724AE000ADBCCB /* PostCreatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39F1A511C724AE000ADBCCB /* PostCreatorViewController.m */; };
 		A3AAF6BE1C6BA9CE00F3B454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF6BD1C6BA9CE00F3B454 /* main.m */; };
 		A3AAF6C11C6BA9CE00F3B454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF6C01C6BA9CE00F3B454 /* AppDelegate.m */; };
-		A3AAF6C41C6BA9CE00F3B454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF6C31C6BA9CE00F3B454 /* ViewController.m */; };
 		A3AAF6C71C6BA9CE00F3B454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6C51C6BA9CE00F3B454 /* Main.storyboard */; };
 		A3AAF6C91C6BA9CE00F3B454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6C81C6BA9CE00F3B454 /* Assets.xcassets */; };
 		A3AAF6CC1C6BA9CE00F3B454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF6CA1C6BA9CE00F3B454 /* LaunchScreen.storyboard */; };
@@ -70,6 +73,15 @@
 		A3AAF70F1C6BC51000F3B454 /* appicon-05.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF70E1C6BC51000F3B454 /* appicon-05.png */; };
 		A3AAF7111C6BC51400F3B454 /* appicon-06.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AAF7101C6BC51400F3B454 /* appicon-06.png */; };
 		A3AAF7141C6BC6AD00F3B454 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAF7131C6BC6AD00F3B454 /* ProfileViewController.m */; };
+		A3C382C61C7239140015730F /* ArticleContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C382C51C7239140015730F /* ArticleContentViewController.m */; };
+		A3C382C81C723AE00015730F /* mars-curiosity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C382C71C723AE00015730F /* mars-curiosity.jpg */; };
+		A3C382CA1C723E910015730F /* YIKSONCOVER.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C382C91C723E910015730F /* YIKSONCOVER.png */; };
+		A3C382CD1C723FD00015730F /* ProfileMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C382CC1C723FD00015730F /* ProfileMainCell.xib */; };
+		A3C382D21C7242150015730F /* appicon-08.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C382CE1C7242150015730F /* appicon-08.png */; };
+		A3C382D31C7242150015730F /* appicon-09.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C382CF1C7242150015730F /* appicon-09.png */; };
+		A3C382D41C7242150015730F /* appicon-10.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C382D01C7242150015730F /* appicon-10.png */; };
+		A3C382D51C7242150015730F /* appicon-11.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C382D11C7242150015730F /* appicon-11.png */; };
+		A3C382D81C7243AF0015730F /* ProfileMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C382D71C7243AF0015730F /* ProfileMainTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +102,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A31DABE81C736273002FA9A3 /* PostContentOptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostContentOptionsTableViewController.h; sourceTree = "<group>"; };
+		A31DABE91C736273002FA9A3 /* PostContentOptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostContentOptionsTableViewController.m; sourceTree = "<group>"; };
+		A31DABEB1C736729002FA9A3 /* DirectUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectUploadViewController.h; sourceTree = "<group>"; };
+		A31DABEC1C736729002FA9A3 /* DirectUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectUploadViewController.m; sourceTree = "<group>"; };
 		A3225F641C6C598A00430903 /* Yikson-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yikson-Prefix.pch"; sourceTree = "<group>"; };
 		A3225F651C6C5A0900430903 /* NewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedViewController.h; sourceTree = "<group>"; };
 		A3225F661C6C5A0900430903 /* NewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedViewController.m; sourceTree = "<group>"; };
@@ -135,12 +151,12 @@
 		A352BF6A1C72005F00378A62 /* lists-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lists-08.png"; sourceTree = "<group>"; };
 		A352BF731C7209E500378A62 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		A352BF741C7209E500378A62 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		A39F1A501C724AE000ADBCCB /* PostCreatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostCreatorViewController.h; sourceTree = "<group>"; };
+		A39F1A511C724AE000ADBCCB /* PostCreatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostCreatorViewController.m; sourceTree = "<group>"; };
 		A3AAF6B91C6BA9CE00F3B454 /* YIKSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YIKSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AAF6BD1C6BA9CE00F3B454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3AAF6BF1C6BA9CE00F3B454 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A3AAF6C01C6BA9CE00F3B454 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A3AAF6C21C6BA9CE00F3B454 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A3AAF6C31C6BA9CE00F3B454 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A3AAF6C61C6BA9CE00F3B454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3AAF6C81C6BA9CE00F3B454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3AAF6CB1C6BA9CE00F3B454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -172,6 +188,20 @@
 		A3AAF7101C6BC51400F3B454 /* appicon-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-06.png"; sourceTree = "<group>"; };
 		A3AAF7121C6BC6AD00F3B454 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		A3AAF7131C6BC6AD00F3B454 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		A3C382C41C7239140015730F /* ArticleContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleContentViewController.h; sourceTree = "<group>"; };
+		A3C382C51C7239140015730F /* ArticleContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleContentViewController.m; sourceTree = "<group>"; };
+		A3C382C71C723AE00015730F /* mars-curiosity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mars-curiosity.jpg"; sourceTree = "<group>"; };
+		A3C382C91C723E910015730F /* YIKSONCOVER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YIKSONCOVER.png; sourceTree = "<group>"; };
+		A3C382CC1C723FD00015730F /* ProfileMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileMainCell.xib; sourceTree = "<group>"; };
+		A3C382CE1C7242150015730F /* appicon-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-08.png"; sourceTree = "<group>"; };
+		A3C382CF1C7242150015730F /* appicon-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-09.png"; sourceTree = "<group>"; };
+		A3C382D01C7242150015730F /* appicon-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-10.png"; sourceTree = "<group>"; };
+		A3C382D11C7242150015730F /* appicon-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-11.png"; sourceTree = "<group>"; };
+		A3C382D61C7243AF0015730F /* ProfileMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileMainTableViewCell.h; sourceTree = "<group>"; };
+		A3C382D71C7243AF0015730F /* ProfileMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileMainTableViewCell.m; sourceTree = "<group>"; };
+		A959F9DA47511FD5E705F95B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D0448935A0748D61DD752C84 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBD9D81F964DD355C39238F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DC9F05712E0BAF7CA4D865 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +230,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004D4468C051E056DE2DC1A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A959F9DA47511FD5E705F95B /* Pods.debug.xcconfig */,
+				FBBD9D81F964DD355C39238F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D2E0F417B6A0F2CA2195E59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0448935A0748D61DD752C84 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A349FCF01C7075EB00F33898 /* NewsFeedView */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +275,10 @@
 		A349FD131C707C3F00F33898 /* appicons */ = {
 			isa = PBXGroup;
 			children = (
+				A3C382CE1C7242150015730F /* appicon-08.png */,
+				A3C382CF1C7242150015730F /* appicon-09.png */,
+				A3C382D01C7242150015730F /* appicon-10.png */,
+				A3C382D11C7242150015730F /* appicon-11.png */,
 				A349FD071C707A8400F33898 /* appicon-15.png */,
 				A349FD081C707A8400F33898 /* appicon-16.png */,
 				A349FD091C707A8400F33898 /* appicon-17.png */,
@@ -273,6 +325,9 @@
 				A352BF511C71FAAD00378A62 /* CustomCollectionViewCell */,
 				A349FCF01C7075EB00F33898 /* NewsFeedView */,
 				A353070B1C7055C200A8B285 /* OptionSelection */,
+				A3C382CC1C723FD00015730F /* ProfileMainCell.xib */,
+				A3C382D61C7243AF0015730F /* ProfileMainTableViewCell.h */,
+				A3C382D71C7243AF0015730F /* ProfileMainTableViewCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -280,8 +335,6 @@
 		A352BF531C71FAEA00378A62 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A3AAF6C21C6BA9CE00F3B454 /* ViewController.h */,
-				A3AAF6C31C6BA9CE00F3B454 /* ViewController.m */,
 				A3225F651C6C5A0900430903 /* NewsFeedViewController.h */,
 				A3225F661C6C5A0900430903 /* NewsFeedViewController.m */,
 				A3AAF7051C6BBDA100F3B454 /* FeedViewController.h */,
@@ -292,8 +345,16 @@
 				A3AAF70C1C6BC38800F3B454 /* ArticleViewController.m */,
 				A3AAF7121C6BC6AD00F3B454 /* ProfileViewController.h */,
 				A3AAF7131C6BC6AD00F3B454 /* ProfileViewController.m */,
+				A3C382C41C7239140015730F /* ArticleContentViewController.h */,
+				A3C382C51C7239140015730F /* ArticleContentViewController.m */,
 				A352BF731C7209E500378A62 /* ContentViewController.h */,
 				A352BF741C7209E500378A62 /* ContentViewController.m */,
+				A39F1A501C724AE000ADBCCB /* PostCreatorViewController.h */,
+				A39F1A511C724AE000ADBCCB /* PostCreatorViewController.m */,
+				A31DABE81C736273002FA9A3 /* PostContentOptionsTableViewController.h */,
+				A31DABE91C736273002FA9A3 /* PostContentOptionsTableViewController.m */,
+				A31DABEB1C736729002FA9A3 /* DirectUploadViewController.h */,
+				A31DABEC1C736729002FA9A3 /* DirectUploadViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -346,6 +407,8 @@
 				A3AAF6D51C6BA9CF00F3B454 /* YIKSONTests */,
 				A3AAF6E01C6BA9CF00F3B454 /* YIKSONUITests */,
 				A3AAF6BA1C6BA9CE00F3B454 /* Products */,
+				004D4468C051E056DE2DC1A7 /* Pods */,
+				4D2E0F417B6A0F2CA2195E59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -363,9 +426,9 @@
 			isa = PBXGroup;
 			children = (
 				A352BF521C71FAC200378A62 /* Views */,
+				A352BF531C71FAEA00378A62 /* Controllers */,
 				A3AAF6BF1C6BA9CE00F3B454 /* AppDelegate.h */,
 				A3AAF6C01C6BA9CE00F3B454 /* AppDelegate.m */,
-				A352BF531C71FAEA00378A62 /* Controllers */,
 				A3AAF6C51C6BA9CE00F3B454 /* Main.storyboard */,
 				A3AAF6C81C6BA9CE00F3B454 /* Assets.xcassets */,
 				A3AAF6CA1C6BA9CE00F3B454 /* LaunchScreen.storyboard */,
@@ -378,6 +441,8 @@
 		A3AAF6BC1C6BA9CE00F3B454 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A3C382C71C723AE00015730F /* mars-curiosity.jpg */,
+				A3C382C91C723E910015730F /* YIKSONCOVER.png */,
 				A352BF621C72005000378A62 /* ArticlePics */,
 				A352BF541C71FCCF00378A62 /* VideoPics */,
 				A349FD141C707CC400F33898 /* ProfilePics */,
@@ -414,9 +479,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3AAF6E61C6BA9CF00F3B454 /* Build configuration list for PBXNativeTarget "YIKSON" */;
 			buildPhases = (
+				1D21BEAD0AF6B9C165D128C7 /* Check Pods Manifest.lock */,
 				A3AAF6B51C6BA9CE00F3B454 /* Sources */,
 				A3AAF6B61C6BA9CE00F3B454 /* Frameworks */,
 				A3AAF6B71C6BA9CE00F3B454 /* Resources */,
+				52DC44B15D36689D685BD132 /* Embed Pods Frameworks */,
+				5C55FC79EA8D2C399200883E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -518,6 +586,7 @@
 				A352BF5C1C71FCDA00378A62 /* vid1.jpg in Resources */,
 				A349FD1E1C707CDE00F33898 /* pic3.png in Resources */,
 				A349FD0E1C707A8400F33898 /* appicon-16.png in Resources */,
+				A3C382D21C7242150015730F /* appicon-08.png in Resources */,
 				A352BF6C1C72005F00378A62 /* lists-02.png in Resources */,
 				A349FD111C707A8400F33898 /* appicon-19.png in Resources */,
 				A349FD021C7078F600F33898 /* feed3.png in Resources */,
@@ -532,6 +601,7 @@
 				A352BF721C72005F00378A62 /* lists-08.png in Resources */,
 				A352BF601C71FCDA00378A62 /* vid5.jpg in Resources */,
 				A3AAF6F81C6BAD1D00F3B454 /* appicon-04.png in Resources */,
+				A3C382CA1C723E910015730F /* YIKSONCOVER.png in Resources */,
 				A349FD1B1C707CDE00F33898 /* pic0.png in Resources */,
 				A349FD061C7078F600F33898 /* feed7.png in Resources */,
 				A349FD001C7078F600F33898 /* feed1.png in Resources */,
@@ -539,6 +609,7 @@
 				A349FD201C707CDE00F33898 /* pic5.png in Resources */,
 				A3AAF6F41C6BAD1D00F3B454 /* appicon-01.png in Resources */,
 				A349FD1D1C707CDE00F33898 /* pic2.png in Resources */,
+				A3C382CD1C723FD00015730F /* ProfileMainCell.xib in Resources */,
 				A349FD051C7078F600F33898 /* feed6.png in Resources */,
 				A352BF6D1C72005F00378A62 /* lists-03.png in Resources */,
 				A349FD221C70831B00F33898 /* CustomCollectionViewCell.xib in Resources */,
@@ -546,6 +617,7 @@
 				A352BF5E1C71FCDA00378A62 /* vid3.jpg in Resources */,
 				A3AAF6FA1C6BB2D000F3B454 /* logonavbar.png in Resources */,
 				A349FCFF1C7078F600F33898 /* feed0.png in Resources */,
+				A3C382D41C7242150015730F /* appicon-10.png in Resources */,
 				A349FD0D1C707A8400F33898 /* appicon-15.png in Resources */,
 				A352BF711C72005F00378A62 /* lists-07.png in Resources */,
 				A349FD101C707A8400F33898 /* appicon-18.png in Resources */,
@@ -553,11 +625,14 @@
 				A349FCF21C70760100F33898 /* NewsFeedView.xib in Resources */,
 				A349FD121C707A8400F33898 /* appicon-20.png in Resources */,
 				A3AAF6C91C6BA9CE00F3B454 /* Assets.xcassets in Resources */,
+				A3C382D31C7242150015730F /* appicon-09.png in Resources */,
 				A352BF701C72005F00378A62 /* lists-06.png in Resources */,
+				A3C382C81C723AE00015730F /* mars-curiosity.jpg in Resources */,
 				A3AAF6C71C6BA9CE00F3B454 /* Main.storyboard in Resources */,
 				A3AAF70F1C6BC51000F3B454 /* appicon-05.png in Resources */,
 				A349FD011C7078F600F33898 /* feed2.png in Resources */,
 				A349FD1C1C707CDE00F33898 /* pic1.png in Resources */,
+				A3C382D51C7242150015730F /* appicon-11.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,21 +652,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D21BEAD0AF6B9C165D128C7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52DC44B15D36689D685BD132 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C55FC79EA8D2C399200883E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3AAF6B51C6BA9CE00F3B454 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A3AAF7041C6BBCB600F3B454 /* OptionSelect.m in Sources */,
+				A31DABED1C736729002FA9A3 /* DirectUploadViewController.m in Sources */,
 				A3AAF7141C6BC6AD00F3B454 /* ProfileViewController.m in Sources */,
 				A3AAF7011C6BBC4C00F3B454 /* OptionCell.m in Sources */,
 				A349FD251C70837900F33898 /* CustomCollectionViewCell.m in Sources */,
+				A3C382D81C7243AF0015730F /* ProfileMainTableViewCell.m in Sources */,
 				A352BF751C7209E500378A62 /* ContentViewController.m in Sources */,
+				A31DABEA1C736273002FA9A3 /* PostContentOptionsTableViewController.m in Sources */,
 				A3225F671C6C5A0900430903 /* NewsFeedViewController.m in Sources */,
-				A3AAF6C41C6BA9CE00F3B454 /* ViewController.m in Sources */,
 				A3AAF6C11C6BA9CE00F3B454 /* AppDelegate.m in Sources */,
 				A3AAF7071C6BBDA100F3B454 /* FeedViewController.m in Sources */,
+				A3C382C61C7239140015730F /* ArticleContentViewController.m in Sources */,
 				A3AAF70D1C6BC38800F3B454 /* ArticleViewController.m in Sources */,
+				A39F1A521C724AE000ADBCCB /* PostCreatorViewController.m in Sources */,
 				A349FCF51C7077BB00F33898 /* NewsFeedTableViewCell.m in Sources */,
 				A3AAF70A1C6BC22600F3B454 /* VideoFeedViewController.m in Sources */,
 				A3AAF6BE1C6BA9CE00F3B454 /* main.m in Sources */,
@@ -731,11 +858,13 @@
 		};
 		A3AAF6E71C6BA9CF00F3B454 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A959F9DA47511FD5E705F95B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YIKSON/Yikson-Prefix.pch";
 				INFOPLIST_FILE = YIKSON/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yikson.YIKSON;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -744,11 +873,13 @@
 		};
 		A3AAF6E81C6BA9CF00F3B454 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBBD9D81F964DD355C39238F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YIKSON/Yikson-Prefix.pch";
 				INFOPLIST_FILE = YIKSON/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yikson.YIKSON;
 				PRODUCT_NAME = "$(TARGET_NAME)";

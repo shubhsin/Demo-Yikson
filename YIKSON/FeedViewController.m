@@ -9,8 +9,9 @@
 #import "FeedViewController.h"
 #import "OptionSelect.h"
 #import "CustomCollectionViewCell.h"
+#import "PostCreatorViewController.h"
 
-@interface FeedViewController ()
+@interface FeedViewController () <UICollectionViewDataSource,UICollectionViewDelegate>
 @property OptionSelect * optionSelectView;
 @end
 
@@ -27,7 +28,7 @@
     
     UIBarButtonItem *searchButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"appicon-05.png"] style:UIBarButtonItemStylePlain target:self action:nil];
     searchButton.tintColor = UIColorFromRGB(0xff3300);
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"appicon-06.png"] style:UIBarButtonItemStylePlain target:self action:nil];
+    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"appicon-06.png"] style:UIBarButtonItemStylePlain target:self action:@selector(openPostCreater)];
     addButton.tintColor = UIColorFromRGB(0xff3300);
     //    self.navigationItem.rightBarButtonItem.tintColor = UIColorFromRGB(0xff3300);
     self.navigationItem.rightBarButtonItems = @[addButton,searchButton];
@@ -51,6 +52,8 @@
 }
 */
 
+#pragma mark UICollectionView Delegate and Datasource
+
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
     return 1;
@@ -68,6 +71,10 @@
      CustomCollectionViewCell * cell = (CustomCollectionViewCell*)[collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     cell.postImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"feed%i.png",(int)indexPath.row]];
     return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    [self performSegueWithIdentifier:@"showFeedContent" sender:self];
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath

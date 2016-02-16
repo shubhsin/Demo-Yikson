@@ -10,7 +10,7 @@
 #import "OptionSelect.h"
 #import "CustomCollectionViewCell.h"
 
-@interface VideoFeedViewController ()
+@interface VideoFeedViewController () <UICollectionViewDelegate,UICollectionViewDataSource>
 @property OptionSelect * optionSelectView;
 @end
 
@@ -70,6 +70,9 @@
     return cell;
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    [self performSegueWithIdentifier:@"showVideoFeedContent" sender:self];
+}
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     return CGSizeMake(CGRectGetWidth(collectionView.frame) * 0.5f, CGRectGetWidth(collectionView.frame) * 0.5f);

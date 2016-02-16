@@ -9,6 +9,8 @@
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 #import "ProfileViewController.h"
+#import "NewsFeedTableViewCell.h"
+#import "ProfileMainTableViewCell.h"
 
 @interface ProfileViewController ()
 
@@ -41,5 +43,50 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+#pragma mark - Table View
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 2;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    if (section == 0) {
+        return 1;
+    }
+    return 5;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.section == 0) {
+        static NSString * cellIdentifier = @"Cell2";
+        ProfileMainTableViewCell * cell = (ProfileMainTableViewCell*)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"ProfileMainCell" owner:self options:nil]  objectAtIndex:0];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        return cell;
+    }
+    
+    static NSString * cellIdentifier = @"Cell";
+    
+    NewsFeedTableViewCell * cell = (NewsFeedTableViewCell*)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    cell = [[[NSBundle mainBundle] loadNibNamed:@"NewsFeedView" owner:self options:nil]  objectAtIndex:0];
+    cell.postProfileImageOutlet.image = [UIImage imageNamed:[NSString stringWithFormat:@"pic%i.png",(int)indexPath.row]];
+    cell.postImageOutlet.image = [UIImage imageNamed:[NSString stringWithFormat:@"feed%i.png",(int)indexPath.row]];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 0) {
+        return 128;
+    }
+    return 260;
+}
 
 @end

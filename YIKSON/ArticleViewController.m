@@ -10,7 +10,7 @@
 #import "OptionSelect.h"
 #import "CustomCollectionViewCell.h"
 
-@interface ArticleViewController ()
+@interface ArticleViewController () <UICollectionViewDataSource,UICollectionViewDelegate>
 @property OptionSelect * optionSelectView;
 @end
 
@@ -71,6 +71,10 @@
     cell.layer.borderWidth = 1.0f;
     cell.postImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"lists-0%i.png",(int)indexPath.row+1]];
     return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    [self performSegueWithIdentifier:@"showArticleFeedContent" sender:self];
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
