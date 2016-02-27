@@ -10,5 +10,5 @@
 
 @interface FeedViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UICollectionView *myCollectionView;
-
+- (IBAction)yourButtonTouch:(UIButton *)sender;
 @end

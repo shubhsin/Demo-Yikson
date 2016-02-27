@@ -100,8 +100,10 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    DirectUploadViewController * destVC = segue.destinationViewController;
-    destVC.title = _directDownloadOptions[[self.tableView indexPathForSelectedRow].row - 1];
+    if ([segue.identifier isEqualToString:@"imageUpload"]||[segue.identifier isEqualToString:@"videoUpload"]||[segue.identifier isEqualToString:@"gifUpload"]) {
+        DirectUploadViewController * destVC = segue.destinationViewController;
+        destVC.title = _directDownloadOptions[[self.tableView indexPathForSelectedRow].row - 1];
+    }
 }
 
 

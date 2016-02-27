@@ -1,29 +1,30 @@
 //
-//  DirectUploadViewController.m
+//  EditImageViewController.m
 //  YIKSON
 //
-//  Created by Shubham Sorte on 16/02/16.
+//  Created by Shubham Sorte on 26/02/16.
 //  Copyright © 2016 Shubham Sorte. All rights reserved.
 //
 
-#import "DirectUploadViewController.h"
+#import "EditImageViewController.h"
 
-@interface DirectUploadViewController () <UITableViewDataSource,UITableViewDelegate>
+@interface EditImageViewController ()
 @property NSArray * optionArray;
 @property NSArray * categoryArray;
 @property BOOL categoryOn;
 @property NSMutableArray * selectedIndexArray;
 @end
 
-@implementation DirectUploadViewController
+@implementation EditImageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _categoryOn = NO;
-    _optionArray = @[@"Add Watermark",@"Anonymous",@"Monetize",@"Select Categories"];
+    _optionArray = @[@"Top Text",@"Bottom Text",@"Point Text",@"Add One More",@"Select Categories"];
     _categoryArray = @[@"FUNNY",@"MEME",@"FOOD",@"ANIMAL",@"UPSET",@"ART"];
     _selectedIndexArray = [NSMutableArray new];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -56,7 +57,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     if (section == 0) {
-        return 5;
+        return 6;
     }
     if (section == 1) {
         NSInteger x = 0;
@@ -85,14 +86,23 @@
         UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
         UISwitch *switchview = [[UISwitch alloc] initWithFrame:CGRectZero];
         switchview.onTintColor = UIColorFromRGB(0xff3300);
+        if (indexPath.row < 4) {
+            UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+            imageView.image = [UIImage imageNamed:@"appicon-13.png"];
+            cell.accessoryView = imageView;
+        }
         if (indexPath.row == 4) {
+            cell.textLabel.textAlignment = NSTextAlignmentCenter;
+        }
+        
+        if (indexPath.row == 5) {
             if (_categoryOn) {
                 switchview.on = YES;
             }
             [switchview addTarget:self action:@selector(showOptions:) forControlEvents:UIControlEventValueChanged];
+            cell.accessoryView = switchview;
         }
         
-        cell.accessoryView = switchview;
         cell.textLabel.textColor = [UIColor darkGrayColor];
         cell.textLabel.text = _optionArray[indexPath.row - 1];
         return cell;
@@ -108,27 +118,26 @@
             cell.accessoryType = UITableViewCellAccessoryNone;
         }
         return cell;
-
+        
     }
     return nil;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if (indexPath.section == 0) {
-    if (![_selectedIndexArray containsObject:indexPath]) {
-        [_selectedIndexArray addObject:indexPath];
-        UITableViewCell * cell = [tableView cellForRowAtIndexPath:indexPath];
-        cell.accessoryType = UITableViewCellAccessoryCheckmark;
-    }
-    else {
-        [_selectedIndexArray removeObject:indexPath];
-        UITableViewCell * cell = [tableView cellForRowAtIndexPath:indexPath];
-        cell.accessoryType = UITableViewCellAccessoryNone;
-    }
+    if (indexPath.section == 1) {
+        if (![_selectedIndexArray containsObject:indexPath]) {
+            [_selectedIndexArray addObject:indexPath];
+            UITableViewCell * cell = [tableView cellForRowAtIndexPath:indexPath];
+            cell.accessoryType = UITableViewCellAccessoryCheckmark;
+        }
+        else {
+            [_selectedIndexArray removeObject:indexPath];
+            UITableViewCell * cell = [tableView cellForRowAtIndexPath:indexPath];
+            cell.accessoryType = UITableViewCellAccessoryNone;
+        }
     }
 }
-
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section == 0 && indexPath.row == 0) {
         return self.view.frame.size.width;

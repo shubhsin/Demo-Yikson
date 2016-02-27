@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ProfileViewController : UIViewController
+typedef enum ProfileModes {
+    ProfileModeNewsFeed,
+    ProfileModeShared,
+    ProfileModeDisplayPictures,
+    ProfileModeFriends
+} ProfileMode;
 
+@interface ProfileViewController : UIViewController
+- (IBAction)modeNewsFeedButtonClicked:(id)sender;
+- (IBAction)modeSharedButtonClicked:(id)sender;
+- (IBAction)modeDisplayPicturesButtonClicked:(id)sender;
+- (IBAction)modeFriendsButtonClicked:(id)sender;
+
+
+@property (weak, nonatomic) IBOutlet UITableView *myTableView;
 @end

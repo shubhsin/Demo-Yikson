@@ -10,6 +10,7 @@
 #import "OptionSelect.h"
 #import "CustomCollectionViewCell.h"
 #import "PostCreatorViewController.h"
+#import "PostCreatorViewController.h"
 
 @interface FeedViewController () <UICollectionViewDataSource,UICollectionViewDelegate>
 @property OptionSelect * optionSelectView;
@@ -26,12 +27,14 @@
     _optionSelectView.optionArray = @[@"TRENDING",@"SUBSCRIBED",@"FRIENDS",@"FUNNY",@"MOVIE &TV",@"CARS",@"NSFW",@"SCITECH",@"REPAIR",@"GEEKY",@"ANIMALS",@"CELEBS",@"FACTS",@"FOOD",@"ART"];
     [self.navigationController.view addSubview:_optionSelectView];
     
+    UIBarButtonItem *negativeSpace = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
+    negativeSpace.width = -15;
     UIBarButtonItem *searchButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"appicon-05.png"] style:UIBarButtonItemStylePlain target:self action:nil];
     searchButton.tintColor = UIColorFromRGB(0xff3300);
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"appicon-06.png"] style:UIBarButtonItemStylePlain target:self action:@selector(openPostCreater)];
     addButton.tintColor = UIColorFromRGB(0xff3300);
     //    self.navigationItem.rightBarButtonItem.tintColor = UIColorFromRGB(0xff3300);
-    self.navigationItem.rightBarButtonItems = @[addButton,searchButton];
+    self.navigationItem.rightBarButtonItems = @[negativeSpace,addButton,searchButton];
     
     _myCollectionView.backgroundColor = UIColorFromRGB(0xffffff);
     [_myCollectionView registerNib:[UINib nibWithNibName:@"CustomCollectionViewCell" bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:@"Cell"];
@@ -42,6 +45,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)yourButtonTouch:(UIButton *)sender {
+    
+    sender.selected = !sender.selected;
+
+}
+
+
+- (void)openPostCreater {
+    UINavigationController * navVC = [[UINavigationController alloc] init];
+    navVC = [self.storyboard instantiateViewControllerWithIdentifier:@"PostController"];
+    PostCreatorViewController *postCreator = [[PostCreatorViewController alloc] init];
+    postCreator = [navVC viewControllers][0];
+    [self.navigationController presentViewController:navVC animated:YES completion:nil];
+}
 /*
 #pragma mark - Navigation
 
